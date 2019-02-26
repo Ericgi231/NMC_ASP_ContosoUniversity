@@ -28,6 +28,9 @@
         <td>
             @Html.DisplayFor(modelItem => item.EnrollmentDate)
         </td>
+        <td>
+            @Html.ActionLink("Edit", "EditDisplay", new { id = item.ID })
+        </td>
     </tr>
     }
 </table>
